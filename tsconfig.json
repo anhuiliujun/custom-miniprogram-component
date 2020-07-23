@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es6",
+    "noImplicitThis": true,
+    "noImplicitUseStrict": true,
+    "types": ["miniprogram-api-typings"]
+  },
+  "include": ["src/**/*"]
+}
