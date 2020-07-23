@@ -1,5 +1,9 @@
 const a = 'xxx';
-Component({});
+Component({
+  data: {
+    a: 111,
+  },
+});
 
 interface Name {
   first: string;

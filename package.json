@@ -15,7 +15,8 @@
     "prettier:fix": "prettier \"./src/**/*.{ts,js,json,md}\" --write",
     "typecheck": "tsc",
     "precommit": "npm run typecheck && lint-staged",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run build && jest",
+    "test:watch": "jest --watch"
   },
   "keywords": [
     "miniprogram",
@@ -38,8 +39,10 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-if": "^3.0.0",
     "husky": "^4.2.5",
+    "jest": "^26.1.0",
     "lint-staged": "^10.2.11",
     "miniprogram-api-typings": "^2.11.0-1",
+    "miniprogram-simulate": "^1.2.7",
     "prettier": "2.0.5",
     "typescript": "^3.9.7"
   },
